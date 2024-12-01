@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Nahdlatul Ulama Purwokerto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <a href="#home">
+                <img src="images/lomgo.png" alt="UNU Purwokerto Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <button class="nav-close">×</button>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#academics">Academics</a>
+                <ul class="dropdown-content">
+                    <li class="sub-dropdown">
+                        <a href="#">Social Sciences & Humanities</a>
+                        <ul class="sub-dropdown-content">
+                            <li><a href="english-education.html">English Education (S1)</a></li>
+                            <li><a href="#">Public Administration (S1)</a></li>
+                            <li><a href="#">Law (S1)</a></li>
+                            <li><a href="#">Management (S1)</a></li>
+                            <li><a href="#">Accountancy (S1)</a></li>
+                            <li><a href="#">Sharia Law (S1)</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <a href="#">Science & Technology</a>
+                        <ul class="sub-dropdown-content">
+                            <li><a href="#">Agrotechnology (S1)</a></li>
+                            <li><a href="#">Food technology (S1)</a></li>
+                            <li><a href="#">Biology (S1)</a></li>
+                            <li><a href="#">Agricultural Engineering and Biosystems (S1)</a></li>
+                            <li><a href="#">Animal Husbandry (S1)</a></li>
+                            <li><a href="#">Mathematics (S1)</a></li>
+                            <li><a href="#">Fisheries Science (S1)</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <a href="#">Islamic Studies</a>
+                        <ul class="sub-dropdown-content">
+                            <li><a href="#">Islamic Religious Education (S1)</a></li>
+                            <li><a href="#">Early Childhood Islamic Education (S1)</a></li>
+                            <li><a href="#">Madrasah ibtidaiyah teacher education (S1)</a></li>
+                            <li><a href="#">Islamic Communication and Broadcasting (S1)</a></li>
+                            <li><a href="#">Arabic Language Education (S1)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Institutions</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">LPPM</a></li>
+                    <li><a href="#">LP3M</a></li>
+                    <li><a href="#">UPT Bahasa</a></li>
+                    <li><a href="#">UPT SI</a></li>
+                    <li><a href="#">UPT Perpustakaan</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggler">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our University</h1>
+            <p>Kuliah sambil wirausaha, Disinilah tempatnya!</p>
+            <div class="hero-buttons">
+                <a href="#academics" class="btn primary-btn">Explore Programs</a>
+                <a href="#about" class="btn secondary-btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="images/civitas.jpg" alt="UNU Purwokerto Civitas">
+                </div>
+                <div class="about-content">
+                    <h2>About Our University</h2>
+                    <p>Universitas Nahdlatul Ulama Purwokerto, abbreviated as UNU Purwokerto, is a private university located in Purwokerto, Central Java Province, Indonesia. This university is an institution under the auspices of the Executive Board of Nahdlatul Ulama and was established on November 30, 2016</p>
+                    
+                    <div class="vision-mission-buttons">
+                        <button id="visionBtn" class="btn">Our Vision</button>
+                        <button id="missionBtn" class="btn">Our Mission</button>
+                    </div>
+
+                    <div id="visionContent" class="content-box" style="display: none;">
+                        <h3>Our Vision</h3>
+                        <p>To become a leading university that excels in education, research, and community service based on Ahlussunnah wal Jamaah An-Nahdliyah values.</p>
+                    </div>
+
+                    <div id="missionContent" class="content-box" style="display: none;">
+                        <h3>Our Mission</h3>
+                        <ul>
+                            <li>Organizing quality higher education based on Ahlussunnah wal Jamaah An-Nahdliyah values</li>
+                            <li>Conducting research that contributes to the development of science and technology</li>
+                            <li>Implementing community service programs that benefit society</li>
+                            <li>Building strong partnerships with various stakeholders</li>
+                        </ul>
+                    </div>
+
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <h3>1000+</h3>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>3</h3>
+                            <p>Faculties</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>17</h3>
+                            <p>Study Programs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="section">
+        <div class="container">
+            <h2>Academics</h2>
+            <p class="section-description">Discover our diverse range of faculties offering world-class education and research opportunities.</p>
+            
+            <div class="programs-grid">
+                <!-- Social Sciences and Humanities -->
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Social Sciences & Humanities</h3>
+                    <p>Faculty of Social Sciences and Humanities offers comprehensive programs focusing on social development and human interaction.</p>
+                    <ul class="program-features">
+                        <li>English Education (S1)</li>
+                        <li>Public Administration (S1)</li>
+                        <li>Law (S1)</li>
+                        <li>Management (S1)</li>
+                        <li>Accountancy (S1)</li>
+                        <li>Sharia Law (S1)</li>
+                    </ul>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <!-- Science and Technology -->
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>Science & Technology</h3>
+                    <p>Faculty of Science and Technology provides cutting-edge programs in technology and engineering fields.</p>
+                    <ul class="program-features">
+                        <li>Agrotechnology (S1)</li>
+                        <li>Food technology (S1)</li>
+                        <li>Biology (S1)</li>
+                        <li>Agricultural Engineering and Biosystems (S1)</li>
+                        <li>Animal Husbandry (S1)</li>
+                        <li>Mathematics (S1)</li>
+                        <li>Fisheries Science (S1)</li>
+                    </ul>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+
+                <!-- Islamic Studies -->
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-star-and-crescent"></i>
+                    </div>
+                    <h3>Islamic Studies</h3>
+                    <p>Faculty of Islamic Studies focuses on Islamic education and teachings, combining traditional wisdom with modern approaches.</p>
+                    <ul class="program-features">
+                        <li>Islamic Religious Education (S1)</li>
+                        <li>Early Childhood Islamic Education (S1)</li>
+                        <li>Madrasah ibtidaiyah teacher education (S1)</li>
+                        <li>Islamic Communication and Broadcasting (S1)</li>
+                        <li>Arabic Language Education (S1)</li>
+                    </ul>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Jl. Sultan Agung No.42, Karangklesem, Purwokerto Selatan, Kabupaten Banyumas, Jawa Tengah 53144</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>(0281) 641277</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@unupurwokerto.ac.id</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3956.2749522674545!2d109.2399968!3d-7.4337636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655ea49d9f9885%3A0x62be0b6159700ec9!2sUniversitas%20Nahdlatul%20Ulama%20Purwokerto!5e0!3m2!1sid!2sid!4v1699506647387!5m2!1sid!2sid"
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with university news and events</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Universitas Nahdlatul Ulama Purwokerto. All rights reserved.</p>
+            <p>Dibuat Dengan cinta. Oleh Ananda Kurniansyah</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
